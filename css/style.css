@@ -1,0 +1,269 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0; 
+}
+
+#header {
+    height: 3em;
+    background-color: #000000; 
+}
+
+#footer {
+    height: 3em;
+    background-color: #000000; 
+}
+
+
+h1, h2, h3, h4 {
+    font-family: 'Bevan';
+    color: #292929;
+}
+
+p {
+    font-family: 'Times New Roman';
+    font-size: 100%; 
+    
+}
+
+
+#chart {
+ width: 50%;
+ height: 600px; 
+    
+}
+.tweet a {
+    color: #3F602B;
+  
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    
+}
+
+#scrollUp {
+  bottom: 2.5em;
+  right: 30px;
+  padding: .75em;
+  background: #555;
+  color: #fff;
+}
+
+
+
+#twitter-feed {
+    border: solid 1px black;
+    padding-left: .5em;
+    padding-right: .5em; 
+    padding-top: 0;
+    padding-bottom: 0; 
+    margin: 0;
+    text-align: left;
+    margin-top: 0; 
+    margin-bottom: 0; 
+  
+}
+
+#user_name {
+    padding-left: .5em;  
+    display: inline;
+    margin-top: -3em; 
+    font-size: 95%;
+    font-weight: bold; 
+    
+}
+
+#user_id {
+    display: inline;
+    
+}
+
+#user_id a {
+    color: gray; 
+}
+
+#twitter_date {
+      display: inline;
+      text-align: right !important; 
+    float: right;
+    margin-top: 2em; 
+}
+
+.photo {
+
+    display: inline; 
+  
+}
+
+.photo img {
+    margin-top: 2em;
+    border-radius: 5px; 
+}
+
+hr {
+    padding: 0;
+
+    
+}
+#twitter_text {
+    padding-left: 4em;
+    margin-top: -2em; 
+
+}
+
+#time {
+    padding-left: 4em;
+    margin-top: -.5em; 
+}
+#map-wrapper {
+    border: 1px solid black;
+   
+    margin: 0;
+    
+}
+
+#map-canvas {
+    height: 600px;
+    
+}
+
+ol, li {
+    font-family: "Bevan";
+    
+}
+
+a {
+    color: black;
+    text-decoration: none; 
+}
+
+
+.links:hover {
+    color: #E20000; 
+}
+
+a:hover {
+    color: black; 
+    text-decoration: none; 
+}
+
+#top {
+    display: inline; 
+    text-align: right;
+    font-size: 100%;
+    
+}
+
+#bird {
+    float: right;
+    display: inline; 
+}
+
+.breadcrumb  {
+    margin: 0 auto;
+    text-align: center; 
+    background-color: #fff;
+
+}
+.main-title {
+
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 0; 
+}
+
+#twitter-title {
+    display: inline;
+    
+}
+
+.divider {
+    height: .5em;
+    background-color: #E20000;
+    width: 100%;
+    margin: 0 auto; 
+    
+}
+
+
+h1 {
+    font-size: 350%;
+    padding: .5em;
+    margin: 0; 
+}
+
+#instafeed {
+    margin: 0 auto; 
+    padding: 0;
+    margin-bottom: 2em;
+    text-align: center; 
+}
+
+#instafeed img {
+    padding: .25em;
+    width: 120px;
+    height: 80px;
+}
+
+#flickr {
+    display: inline-block;
+  
+}
+
+#flickr img {
+    padding: .25em; 
+    width: 145px;
+    height: 100px;
+
+}
+
+#results2 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0; 
+}
+
+
+h2, h3 {
+ 
+    border-bottom: solid 1px black;
+    text-align: center; 
+}
+
+.links {
+    text-align: left;
+    color: gray; 
+}
+
+.nyt-links {
+    color: #292929; 
+}
+
+.nyt-links:hover {
+    color: #3B5323; 
+}
+
+.news-links {
+    color: #3F602B;
+}
+
+/* re-size for mobile */
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 250%; 
+    }
+    h2 {
+        font-size: 200%; 
+    }
+    
+    #scrollUp {
+  bottom: 1.5em;
+  right: 35px;
+
+}
+}
